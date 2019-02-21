@@ -1,0 +1,400 @@
+/* 详情页面专用css */
+
+.crumb_wrap {
+    height: 40px;
+}
+
+.crumb_wrap li {
+    float: left;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 25px;
+}
+
+.crumb_wrap li.icon-gengduo {
+    margin-left: 15px;
+    margin-right: 18px;
+}
+
+
+.preview_wrap {
+    width: 400px;
+    height: 560px;
+    float: left;
+    margin-top: 10px;
+}
+
+.preview_img img {
+    border: 1px solid #ededed;
+}
+
+.preview_list {
+    margin-top: 64px;
+    position: relative;
+}
+
+.preview_list li {
+    float: left;
+}
+
+.preview_list ul {
+    width: 290px;
+    margin: 0 auto;
+}
+
+.preview_list li:first-child {
+    border: 1px solid red;
+}
+
+.arrow_prev,
+.arrow_next {
+    width: 22px;
+    height: 32px;
+    position: absolute;
+    top: 12px;
+}
+
+.arrow_prev {
+    background: url("../img/arrow-prev.png");
+    left: 4px;
+}
+
+.arrow_next {
+    background: url("../img/arrow-next.png");
+    right: 15px;
+}
+
+.itemInfo_wrap {
+    width: 718px;
+    height: 560px;
+    float: right;
+}
+
+.sku_name {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.itemInfo_wrap .news {
+    color: red;
+    margin-top: 17px;
+}
+
+.itemInfo_wrap .sale {
+    width: 718px;
+    height: 113px;
+    background-color: #fee9eb;
+    overflow: hidden;
+    position: relative;
+    
+}
+ .sale .sale_pri {
+     margin: 10px 0;
+ }
+
+.sale .dt {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin-right: 14px;
+}
+.sale .dt i {
+    margin-left: 24px;
+}
+.sale .sale_pri .dd {
+    float: left;
+    font-size: 20px;
+    line-height: 22px;
+    color: #e12228;
+}
+.sale .dd i.ico {
+    font-size: 14px;
+}
+.sale .sale_pri .dd a {
+    font-size: 12px;
+    color: #c81623;
+    margin-left: 4px;
+}
+.sell .dd {
+    float: left;
+    line-height: 22px;
+    width: 560px;
+    color: #999;;
+}
+
+.sell .dd a.raise {
+    float: left;
+    height: 22px;
+    width: 40px;
+    text-align: center;
+    background-color: #c81623;
+    color: #fff;
+    margin-right: 4px;
+}
+
+.sell .dd a.more {
+    color: #999;
+}
+
+.sale .comment_count {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.comment_count i {
+    color: #1474af;
+}
+
+.summary_support {
+    width: 548px;
+    height: 84px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 14px;
+}
+
+
+.support .dt {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin-right: 14px;
+}
+.support .dt i {
+    margin-left: 24px;
+}
+
+.support .dd {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    
+}
+
+.choose_view {
+    height: 236px;
+    width: 548px;
+    overflow: hidden;
+    position: relative;
+}
+
+.choose_view .under_line {
+    width: 314px;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.choose_color {
+    margin-top: 15px;
+}
+
+.choose_color .dt {
+    height: 43px;
+    line-height: 43px;
+    float: left;
+}
+
+.choose_color .dd {
+    float: left;
+    margin-left: 14px;
+}
+
+.choose_color .dd a {
+    float: left;
+    width: 80px;
+    height: 41px;
+    border: 1px solid #ededed;
+    background-color: #f7f7f7;
+    text-align: center;
+    line-height: 41px;
+    margin-right: 8px;
+}
+.current {
+    border-color: red !important;
+}
+.choose_version,
+.choose_type {
+    margin-top: 7px;
+}
+.choose_version .dt,
+.choose_type .dt {
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    margin-right: 14px;
+}
+.choose_version .dd,
+.choose_type .dd {
+    float: left;
+}
+.choose_version .dd a,
+.choose_type .dd a {
+    float: left;
+    height: 32px;
+    padding: 0 14px;
+    line-height: 32px;
+    border: 1px solid #ededed;
+    background-color: #f7f7f7;
+    margin-right: 8px;
+}
+
+.addshopcar {
+    margin-top: 6px;
+}
+
+.choose_count {
+    float: left;
+    width: 49px;
+    height: 45px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.choose_count input {
+    width: 33px;
+    height: 44px;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+
+.choose_count a {
+    width: 15px;
+    height: 22px;
+    position: absolute;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 22px;
+}
+
+.choose_count a.add {
+    right: 0;
+    top: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.choose_count a.reduce {
+    right: 0;
+    bottom: 0;
+    cursor: not-allowed;
+}
+
+.addshopcar .btn {
+    float: left;
+    margin-left: 10px;
+}
+
+.addshopcar .btn a {
+    display: block;
+    width: 142px;
+    height: 46px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 46px;
+    background-color: #c81623;
+}
+
+.product_detail .aside {
+    height: 2383px;
+    width: 208px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.product_detail .tab_list li {
+    float: left;
+    height: 33px;
+    width: 103px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+}
+
+.product_detail .tab_list li:first-child {
+    border-right: 1px solid transparent;
+    border-color: transparent;
+}
+
+.check {
+    color: red;
+}
+
+.product_detail .tab_list li:last-child {
+    border-left: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.product_detail .tab_con li {
+    height: 237px;
+    width: 190px;
+    border-top: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+.aside .tab_con li a {
+    display: block;
+    width: 190px;
+    height: 189px;
+}
+
+.aside .tab_con .con_name {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.aside .tab_con input {
+    width: 88px;
+    height: 26px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto;
+}
+
+.product_detail .detail {
+    width: 979px;
+    height: 1000px;
+    float: right;
+}
+
+.detail_tab_list {
+    height: 39px;
+    width: 977px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.detail_tab_list li {
+    float: left;
+    line-height: 39px;
+    padding: 0 18px;
+}
+
+.detail_tab_list li:first-child {
+    background-color: #c81623;
+}
+
+.detail_tab_list li:first-child a {
+    color: #fff;
+}
+
+.detail_tab_con {
+    height: 310px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 18px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.detail_tab_con li {
+    line-height: 22px;
+}
+
+.detail_tab_con a {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}

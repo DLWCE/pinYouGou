@@ -1,0 +1,337 @@
+/* 通用样式,哪个页面需要用到,就直接链接即可 */
+
+.shortcut {
+    height: 30px;
+    background-color: #ccc;
+    border-bottom: 1px solid red;
+}
+
+.shortcut .w {
+    height: 30px;
+}
+
+.welcome {
+    float: left;
+    line-height: 30px;
+}
+
+.welcome span,
+.welcome a {
+    color: #666;
+    margin-right: 10px;
+}
+
+.welcome .tag {
+    color: #c7162f;
+}
+
+.shortcut-links {
+    float: right;
+}
+
+.shortcut-links li {
+    float: left;
+    line-height: 30px;
+}
+
+.shortcut-links li.tag {
+    line-height: 27px;
+}
+
+.shortcut-links li .icon-xiajiantou {
+    margin-left: 8px;
+}
+
+
+.shortcut-links li.line {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 14px;
+}
+
+.shortcut-links a {
+    color: #666;
+}
+
+.header {
+    height: 105px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+}
+
+.logo a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    background: url("../img/logo.png") #fff;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+.search-bar {
+    width: 534px;
+    height: 32px;
+    border: 2px solid #af1a1b;
+    position: absolute;
+    top: 25px;
+    left: 347px;
+}
+
+.search-bar input {
+    float: left;
+    width: 450px;
+    height: 32px;
+    padding-left: 4px;
+}
+.search-bar a {
+    float: right;
+    height: 32px;
+    width: 80px;
+    background-color: #af1a1b;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.shopCar {
+    width: 138px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    top: 25px;
+    right: 63px;
+}
+
+.shopCar a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 34px;
+    background-color: #f7f7f7;
+    color: #666;
+}
+
+.shopCar .cout {
+    position: absolute;
+    height: 14px;
+    padding: 0 5px;
+    background-color: #e7000d;
+    border-radius: 7px 7px 7px 0;
+    top: -5px;
+    left: 104px;
+    color: #fff;
+    line-height: 14px;
+}
+
+.hot-words {
+    position: absolute;
+    top: 69px;
+    left: 359px;
+}
+
+.hot-words li {
+    float: left;
+    margin-right: 25px;
+}
+
+.hot-words li a {
+    color: #666;
+}
+
+.hot-words li.first a {
+    color: #ca1229;
+}
+
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b01919;
+}
+
+.nav .w {
+    height: 45px;
+}
+
+.nav .dropdown {
+    width: 210px;
+    /* height: 512px; */
+    float: left;
+}
+
+.dropdown .dt {
+    height: 45px;
+    width: 210px;
+    background-color: #b11a1a;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+}
+
+.dropdown .dd {
+    width: 210px;
+    height: 465px;
+    background-color: #c81822;
+    margin-top: 2px;
+}
+
+.dropdown .dd li {
+    font-size: 14px;
+    line-height: 31px;
+    height: 31px;
+    color: #fff;
+    padding-left: 12px;
+    margin-left: 1px;
+}
+
+.dropdown .dd a {
+    color: #fff;
+}
+
+.dropdown .dd i.icon-gengduo {
+    font-size: 12px;
+    float: right;
+    margin-right: 10px;
+}
+
+.dropdown .dd li:hover {
+    background-color: #f7f7f7;
+    color: #b01919;
+}
+
+.dropdown .dd li:hover a {
+    color: #b01919;
+}
+
+.dropdown .dd li:hover .icon-gengduo {
+    color: #f7f7f7;
+}
+.navitems {
+    float: left;
+    margin-left: 40px;
+}
+.navitems li {
+    float: left;
+    font-size: 16px;
+    line-height: 45px;
+    margin-right: 52px;
+}
+
+.footer {
+    height: 417px;
+    background-color: #ccc;
+}
+
+.footer .w {
+    height: 100%;
+}
+
+
+.mod_service {
+    height: 109px;
+    border-bottom: 1px solid red;
+}
+
+.mod_service li {
+    float: left;
+    height: 109px;
+    width: 20%;
+}
+.mod_service .service_ico {
+    float: left;
+    width: 49px;
+    height: 49px;
+    background: url("../img/icons.png") -253px -3px;
+    margin: 30px 6px 0px 36px;
+}
+.service_tit {
+    float: left;
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 36px;
+}
+.service_desc {
+    float: left;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #666;
+}
+.mod_service .service_su {
+    background-position: -255px -54px;
+}
+.mod_service .service_bao {
+    background-position: -257px -106px;
+}
+.mod_service .service_te {
+     background-position: -258px -157px;
+     border-radius: 50%;
+     background-color: #C81623;
+}
+.mod_service .service_help {
+    background-position: -258px -209px;
+    
+}
+
+.mod_help {
+    height: 176px;
+    border-bottom: 1px solid red;
+    padding-top: 11px;
+    padding-left: 48px;
+}
+
+.mod_help ul {
+    float: left;
+    width: 200px;
+}
+.mod_help ul.last {
+    width: 160px;
+}
+
+.mod_help li {
+    line-height: 21px;
+}
+
+.mod_help li.dt {
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.qr_code {
+    float: right;
+    width: 90px;
+    text-align: center;
+    margin-right: 76px;
+}
+.qr_code .code_tit {
+    font-size: 16px;
+    line-height: 36px;
+    margin-bottom: 6px;
+
+}
+.code_desc {
+    margin-top: 8px;
+}
+
+.mod_copyright {
+    height: 119px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.mod_copyright .line {
+    margin: 0 10px;
+}
+
+.mod_copyright .copyright_links {
+    margin: 20px 0px 15px;
+}
+.mod_copyright .web_info {
+    margin-top: 9px;
+}
